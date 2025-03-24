@@ -1,47 +1,78 @@
 <p align="center">
-    <h1 align="center">HMPNet：A Feature Aggregation Architecture for Maritime Object Detection from a Shipborne Perspective</h1>
-     </p>
-    <h3 align="center"><a href="URL">Paper</a>
-    <div align="center"></div>
+  <img src="https://img.shields.io/badge/ICME2025-Accepted-brightgreen?style=for-the-badge&logo=ICME" alt="ICME2025 Accepted"/>
 </p>
 
-![image](https://github.com/xi029/HMPNet/blob/master/img/images.png)
+<p align="center">
+  <h1 align="center">HMPNet：A Feature Aggregation Architecture for Maritime Object Detection from a Shipborne Perspective</h1>
+  <h2 align="center">🎉 Accepted at ICME2025! 🎉</h2>
+  <h3 align="center"><a href="URL">View Paper</a></h3>
+</p>
 
-## How to use
+<p align="center">
+  <img src="https://github.com/xi029/HMPNet/blob/master/img/images.png" alt="HMPNet Overview" width="70%"/>
+</p>
 
-## Environment
+---
 
-- NVIDIA RTX 4090
-- Python 3.10
-- Pytorch 2.0.2
+## 🚀 Introduction
 
-## Installation
+We are thrilled to announce that our paper **HMPNet: A Feature Aggregation Architecture for Maritime Object Detection from a Shipborne Perspective** has been accepted for presentation at **ICME2025**! This marks a significant milestone in our journey, reflecting countless hours of research, development, and unwavering perseverance.
 
-**1.Clone this repository:**
+> **"Hard work and dedication always pay off."**
 
-```
+---
+
+## 🔧 How to Use
+
+Follow the instructions below to set up and experiment with HMPNet.
+
+---
+
+## 🖥️ Environment
+
+- **GPU:** NVIDIA RTX 4090
+- **Python:** 3.10
+- **PyTorch:** 2.0.2
+
+---
+
+## 📚 Table of Contents
+
+- [⚙️ Installation](#-installation)
+- [📦 Dataset Preparation](#-dataset-preparation)
+- [🚀 Training & Evaluation](#-training--evaluation)
+- [📄 Citation](#-citation)
+- [🤝 Acknowledgement](#-acknowledgement)
+- [📜 License](#-license)
+
+## 🛠️ Installation
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/yourusername/HMPNet.git
 cd HMPNet
 ```
 
-**2.Create a Python virtual environment and activate it:**
+### 2. Create and Activate a Python Virtual Environment
 
-```
+```bash
 conda create -n HMPNet python=3.10
 conda activate HMPNet
 ```
 
-**3.Install the required dependencies:**
+### 3. Install the Required Dependencies
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
-## Dataset Preparation
+---
 
-**1.Download the maritime object detection dataset (or use your dataset).**
+## 📁 Dataset Preparation
 
-**2.Organize the dataset in YOLO format**
+1. **Download the maritime object detection dataset** (or use your own dataset).
+2. **Organize the dataset in YOLO format:**
 
 ```
 ├── dataset/
@@ -56,45 +87,75 @@ pip install -r requirements.txt
         ├── labels/
 ```
 
-**3.Update the dataset path in the configuration file (e.g., `data.yaml`).**
+3. **Update the dataset path** in the configuration file (e.g., `data.yaml`).
 
-## Training
+---
 
-**To train HMPNet from scratch:**
+## 🎓 Training and Evaluation
 
-```
+### Training from Scratch
+
+```bash
 python train.py
 ```
 
-## validation
+### Validation
 
-```
+```bash
 python val.py
 ```
 
-## test
+### Testing
 
+```bash
+python val.py split='test'
 ```
-python val.py   split='test'
-```
 
-## Acknowledgement
+---
 
-**We sincerely thank [ultralytics](https://github.com/ultralytics/ultralytics), [PaddleDetection](https://github.com/PaddlePaddle/PaddleDetection), [ParameterNet](https://parameternet.github.io/), [DEA-Net](https://github.com/cecret3350/DEA-Net), and [RTDETR](https://zhao-yian.github.io/RTDETR/) for providing their wonderful code to the community!**
+## 🌟 Acknowledgements
 
-## Citation
+We sincerely thank the following projects for their inspiring and foundational contributions:
 
-**If you find this repository helpful, please cite our paper:**
+- [ultralytics](https://github.com/ultralytics/ultralytics)
+- [PaddleDetection](https://github.com/PaddlePaddle/PaddleDetection)
+- [ParameterNet](https://parameternet.github.io/)
+- [DEA-Net](https://github.com/cecret3350/DEA-Net)
+- [RTDETR](https://zhao-yian.github.io/RTDETR/)
 
-```
-@article{yourpaper2024,
+Your wonderful code and insights have greatly influenced our work.
+
+---
+
+## 📝 Citation
+
+If you find this repository useful, please consider citing our paper:
+
+```bibtex
+@article{yourpaper2025,
   title={HMPNet: A Feature Aggregation Architecture for Maritime Object Detection},
   author={Your Name and Collaborators},
-  journal={Journal/Conference Name},
-  year={2024}
+  journal={ICME2025 Proceedings},
+  year={2025}
 }
 ```
 
-## License
+---
 
-This project is licensed under the GPL-3.0 License. See the LICENSE file for details.
+## 📜 License
+
+This project is licensed under the **GPL-3.0 License**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Research-Forward-blue?style=for-the-badge&logo=researchgate" alt="Research Forward"/>
+  <br>
+  <em>Committed to advancing maritime object detection research one step at a time.</em>
+</p>
+
+---
+
+🚀 **欢迎 Star & Fork 支持本项目！**  
+🚀 **Feel free to star and fork this project!**
+💖 **感谢关注，祝使用愉快！** 💖
