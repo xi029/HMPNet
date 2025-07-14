@@ -5,7 +5,7 @@
 <p align="center">
   <h1 align="center">HMPNet：A Feature Aggregation Architecture for Maritime Object Detection from a Shipborne Perspective</h1>
   <h2 align="center">🎉 Accepted at ICME2025! 🎉</h2>
-  <h3 align="center"><a href="URL">View Paper</a></h3>
+  <h3 align="center"><a href="https://arxiv.org/abs/2505.08231">View Paper</a></h3>
 </p>
 
 <p align="center">
